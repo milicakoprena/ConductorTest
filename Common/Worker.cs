@@ -22,7 +22,7 @@ namespace Common
             this.task = task_;
             httpClient = new HttpClient()
             {
-                BaseAddress = new Uri("http://localhost:8080/api/")
+                BaseAddress = new Uri("http://192.168.101.17:8082/api/")
             };
         }
 
@@ -32,7 +32,7 @@ namespace Common
             {
                 var response = await httpClient.GetAsync($"tasks/poll/{task}");
                 if(response.StatusCode == System.Net.HttpStatusCode.NoContent) { 
-                    Thread.Sleep(1000);
+                   // Thread.Sleep(1000);
                 }
                 else if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
@@ -49,6 +49,7 @@ namespace Common
 
                     await UpdateTaskStatus(updateTaskStatus);
                 }
+                await Task.Delay(1000);
             }
 
         }

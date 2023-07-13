@@ -11,6 +11,6 @@ namespace PrepareVideos
     public class PrepareVideosInput
     {
         [JsonProperty("videosToProcess")]
-        public Video[] VideosToProcess { get; set; }
+        public DownloadAndProcessing[] VideosToProcess { get; set; }
     }
 }

@@ -5,7 +5,11 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{E4D903F3-9D8C-45CF-ABC9-B41CE891A27A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrepareVideos", "PrepareVideos\PrepareVideos.csproj", "{3D519994-D2A4-4E3B-9F47-01F6A4936F06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrepareVideos", "PrepareVideos\PrepareVideos.csproj", "{3D519994-D2A4-4E3B-9F47-01F6A4936F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadVideos", "DownloadVideos\DownloadVideos.csproj", "{4FA366B0-F1FC-4255-8D10-05C5E2F705B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrimVideos", "TrimVideos\TrimVideos.csproj", "{9FB673C3-A17C-49DC-A2EE-A4D591B7F91E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{3D519994-D2A4-4E3B-9F47-01F6A4936F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D519994-D2A4-4E3B-9F47-01F6A4936F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D519994-D2A4-4E3B-9F47-01F6A4936F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA366B0-F1FC-4255-8D10-05C5E2F705B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA366B0-F1FC-4255-8D10-05C5E2F705B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA366B0-F1FC-4255-8D10-05C5E2F705B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA366B0-F1FC-4255-8D10-05C5E2F705B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB673C3-A17C-49DC-A2EE-A4D591B7F91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB673C3-A17C-49DC-A2EE-A4D591B7F91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB673C3-A17C-49DC-A2EE-A4D591B7F91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB673C3-A17C-49DC-A2EE-A4D591B7F91E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
